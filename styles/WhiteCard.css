@@ -1,0 +1,31 @@
+.feed-view .feed-item .code-comment {
+  background-color: #FFFFFF;
+  contain: content;
+  padding: 16px;
+}
+.feed-view .feed-item .code-comment.code-comment_top,
+.feed-view .feed-item .code-comment.code-comment_single {
+  padding: 14px;
+}
+.feed-view .feed-item .code-comment.code-comment_reply {
+  padding-left: 28px;
+}
+.feed-view .feed-item .code-comment:last-child {
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 3px 3px;
+  padding-bottom: 12px;
+}
+.feed-view .feed-item .code-comment.code-comment_top {
+  -webkit-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px 3px 0 0;
+}
+.feed-view .feed-item .code-comment.code-comment_single {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}

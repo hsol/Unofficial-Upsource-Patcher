@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html id="UnofficialUpsourcePatcher">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/Popup.css">
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/dist/scripts/Navigator.js"></script>
+  <script type="text/javascript" src="/dist/scripts/Popup.js"></script>
+</head>
+<body>
+<div class="loading-spinner"></div>
+<div class="module-navigator">
+  <nav class="layout-navigation">
+    <ul class="nav-tabs">
+      <li class="nav-tab" for="navToggleOptions">toggle options</li>
+      <li class="nav-tab" for="navAbout">about</li>
+    </ul>
+  </nav>
+  <article class="layout-container">
+    <div class="nav-containers">
+      <section id="navToggleOptions" class="nav-container" style="display:none;">
+        <p class="nav-container-row">
+          <label>
+            <input class="js_toggle_option" type="checkbox" name="styleWhiteCard">
+            <span>[style] White review card</span>
+          </label>
+        </p>
+        <p class="nav-container-row">
+          <label>
+            <input class="js_toggle_option" type="checkbox" name="fixPopupOffset">
+            <span>[fix] Fix popup offset</span>
+          </label>
+        </p>
+      </section>
+      <section id="navAbout" class="nav-container" style="display:none;">
+        <p class="nav-container-row nav-about">
+          Dev&nbsp;&&nbsp;Distribution by HansolLim
+          &lt;<a href="mailto:dev.hansollim@gmail.com">dev.hansollim@gmail.com</a>&gt;
+        </p>
+      </section>
+    </div>
+  </article>
+</div>
+<footer>
+</footer>
+</body>
+</html>

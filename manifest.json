@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Unofficial Upsource Patcher",
+  "description": "Improve JetBrains Upsource what bugs or awful designs",
+  "version": "0.0.2",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_title": "Unofficial Upsource Patcher",
+    "default_icon": "icon128.png",
+    "default_popup": "Popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "nativeMessaging"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "dist/scripts/Injection.js",
+        "emitter.js"
+      ],
+      "css": [
+        "styles/Main.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["images/*.*", "styles/*.*", "scripts/*.*"]
+}

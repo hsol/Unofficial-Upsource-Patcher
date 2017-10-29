@@ -1,0 +1,86 @@
+html#UnofficialUpsourcePatcher {
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+html#UnofficialUpsourcePatcher * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html#UnofficialUpsourcePatcher body {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+html#UnofficialUpsourcePatcher body a,
+html#UnofficialUpsourcePatcher body a:hover,
+html#UnofficialUpsourcePatcher body a:active,
+html#UnofficialUpsourcePatcher body a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+html#UnofficialUpsourcePatcher body a {
+  opacity: 0.8;
+}
+html#UnofficialUpsourcePatcher body a:hover {
+  opacity: 1;
+}
+html#UnofficialUpsourcePatcher body a:visited {
+  opacity: 0.5;
+}
+html#UnofficialUpsourcePatcher .module-navigator {
+  min-width: 480px;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-navigation {
+  width: 100%;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-navigation .nav-tabs {
+  padding: 0;
+  margin: 0;
+  background-color: #34495e;
+  width: 100%;
+  font-size: 0;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-navigation .nav-tabs .nav-tab {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-navigation .nav-tabs .nav-tab.selected {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-navigation .nav-tabs .nav-tab:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-container .nav-containers .nav-container {
+  width: 100%;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-container .nav-containers .nav-container .nav-container-row {
+  padding: 0.3em 0.5em;
+}
+html#UnofficialUpsourcePatcher .module-navigator .layout-container .nav-containers .nav-container .nav-container-row.nav-about {
+  text-align: center;
+}
+html#UnofficialUpsourcePatcher body {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+html#UnofficialUpsourcePatcher .loading-spinner {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url('../images/loading-spinner.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+html#UnofficialUpsourcePatcher footer {
+  padding: 0.25em 0.5em;
+  text-align: center;
+}
