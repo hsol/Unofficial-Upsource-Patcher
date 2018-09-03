@@ -1,0 +1,18 @@
+.discussion-labels {
+    font-weight: normal;
+    position: unset;
+}
+
+.discussion-labels .discussion-labels__select .ring-select {
+    height: 20px;
+    line-height: 20px;
+}
+
+.discussion-labels .discussion-labels__select .ring-select__icons {
+    line-height: 20px;
+}
+
+.code-comment:not(:hover) .code-comment__hover {
+    width: 0;
+    margin: 0;
+}

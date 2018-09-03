@@ -1,6 +1,6 @@
 {
   "name": "unofficial_upsource_patcher",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Improve JetBrains Upsource what bugs or awful designs",
   "main": "emitter.js",
   "scripts": {
